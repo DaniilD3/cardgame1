@@ -1,0 +1,70 @@
+*{
+	padding: 0;
+	margin: 0;
+	@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Oswald:wght@500&display=swap');
+
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+}
+
+header {
+	padding: 40px;
+	padding-top: 0px;
+	font-size: 40px
+}
+body{
+	background-image: url(./865178.jpg);
+}
+
+main {
+	font-size: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.menu {
+	margin: auto;
+
+}
+
+h1{
+	color: whitesmoke;
+}
+
+
+h2 {
+	margin-bottom: 40px;
+	color: whitesmoke;
+}
+
+.btn {
+	margin: 30px; 
+	padding: 30px;
+	width: 250px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition:0.2s
+
+
+}
+
+.btn1 {
+	background-color: yellowgreen;
+
+}
+
+.btn2 {
+	background-color: yellow;
+
+}
+
+.btn3 {
+	background-color: brown;
+
+}
+.btn:hover
+{	scale: 1.1
+
+}	
+
