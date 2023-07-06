@@ -17,6 +17,7 @@ body{
 }
 
 main {
+	padding: 100px;
 	font-size: 30px;
 	display: flex;
 	flex-direction: column;
@@ -67,4 +68,27 @@ h2 {
 {	scale: 1.1
 
 }	
+.reset {
+	background-color: wheat;
+	padding: 3px;
+}
+.game-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.lvl{
+	
+	text-align: left;
+	background-color: wheat;
+	padding: 3px;
+	border-radius: 20px;
+	margin: 30px;
+}
+
+.null{
+	padding-top:0 ;
+}
+
+
 
